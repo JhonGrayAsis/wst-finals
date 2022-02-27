@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-------------------------fav. icon------------------------->
+        <link rel="shortcut icon" href="" type="image/x-icon">
+
+        <!-------------------------boxicons------------------------->
+        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-------------------------swiper css------------------------->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!-------------------------css------------------------->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>responsive portfolio </title>
+    </head>
+    <body>
+        
+        <!-------------------------header------------------------->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">JG</a>
+
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav_link active-link">
+                                <i class='bx bxs-home' ></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#about" class="nav_link">
+                                <i class='bx bx-user-circle'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#schools" class="nav_link">
+                                <i class='bx bxs-graduation'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#gallery" class="nav_link">
+                                <i class='bx bx-image-alt'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#contact" class="nav_link">
+                                <i class='bx bxs-contact' ></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                
+
+
+
+                <!-------------------------theme changer------------------------->
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+            </nav>
+        </header>
+
+        <!-------------------------main------------------------->
+        <main class="main">
+            
+            <!-------------------------home------------------------->
+            <section class="home section" id="home">
+                
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__greeting">Hello, I'm</span>
+                        <h1 class="home__name">Jhon Gray Asis</h1>
+                        <h3 class="home__education">BSIT 2-A</h3>
+
+                        <div class="home__buttons">
+                            <a download="" href="#" class="button button--ghost">Download CV</a>
+                            <a href="#about" class="button">About me</a>
+                        </div>
+                    </div>
+
+                    <div class="home__handle">
+                        <img src="assets/img/main.png" alt="" class="home__img">
+                    </div>
+                </div>
+
+                <div class="side__link__left sides">
+                    <ul>
+                        <li>
+                            <i class='bx bx-up-arrow-alt'></i>
+                        </li>
+                        <li>
+                            <i class='bx bxs-mouse-alt' ></i>
+                        </li>
+                        <li>
+                            <i class='bx bx-down-arrow-alt' ></i>
+                        </li>
+                        <li></li>
+                        <li><a href="https://www.github.com/">
+                            <i class='bx bxl-github' ></i>
+                        </a></li>
+                        <li><a href="https://www.linkedin.com/">
+                            <i class='bx bxl-linkedin-square'></i>
+                        </a></li>
+                    </ul>
+                </div>
+    
+                <div class="side__link__right sides">
+                    <ul>
+                        <li>
+                            <i class='bx bx-up-arrow-alt'></i>
+                        </li>
+                        <li>
+                            <i class='bx bxs-mouse-alt' ></i>
+                        </li>
+                        <li>
+                            <i class='bx bx-down-arrow-alt' ></i>
+                        </li>
+                        <li></li>
+                        <li><a href="https://www.github.com/">
+                            <i class='bx bxl-github' ></i>
+                        </a></li>
+                        <li><a href="https://www.linkedin.com/">
+                            <i class='bx bxl-linkedin-square'></i>
+                        </a></li>
+                    </ul>
+                </div>
+            </section>
+            
+            <!-------------------------about------------------------->
+            <section class="about section" id="about">
+                <span class="section__subtitle">My Intro</span>
+                <h2 class="section__title">About Me</h2>
+
+                <div class="about__container container grid">
+                    <img src="assets/img/about.jpeg" alt="" class="about__img">
+                    
+                    <div class="about__data">
+                        <div class="about__info">
+                            <div class="about__box">
+                                <i class='about__icon'></i>
+                                <h3 class="about__title">Age</h3>
+                                <span class="about__subtitle">21</span>
+                            </div>
+                            
+                            <div class="about__box">
+                                <i class='about__icon'></i>
+                                <h3 class="about__title">Gender</h3>
+                                <span class="about__subtitle">Male</span>
+                            </div>
+
+                            <div class="about__box">
+                                <i class='about__icon'></i>
+                                <h3 class="about__title">Birth Date</h3>
+                                <span class="about__subtitle">10/04/2000</span>
+                            </div>
+                        </div>
+
+                        <p class="about__description"><span id="indention"> I </span> am Jhon Gray G. Asis. I was born on October 4, 2000 and I was born in Barugo Leyte, 21 years old
+                            currently residing in Barangay Santarin Barugo Leyte. We are five in the family, I have two siblings, 
+                            one brother and one sister, I am the middleman among the siblings. I am taking up Bachelor of Science in Information technology 
+                            and I am already in my sophomore year in Eastern Visayas State University. My father is Jose C. Asis Jr. and he is a fisherman 
+                            while my mother is Mylene G. Asis and she is a fish vendor.</p>
+                        <a href="#contact" class="button">Contact Me</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-------------------------hobbies------------------------->
+            <section class="gallery section" id="hobbies">
+                <h2 class="section__title">My Hobbies</h2>
+
+                <div class="skills__container container grid">
+                    <div class="skills__content">
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check'></i>
+                                    
+                                    <div>
+                                        <h3 class="skills__name">Playing Basketball</h3>
+                                        <span class="skills__level"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check'></i>
+                                    
+                                    <div>
+                                        <h3 class="skills__name">Watching TV</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--------------------------schools------------------------->
+            <section class="services section" id="schools">
+                <h2 class="section__title">My School Life</h2>
+
+                <div class="services__container container grid">
+                    <div class="services__card">
+                        <h3 class="services__title">Elementary</h3>
+                        <p>Santarin Elementary School</p>
+
+                    </div>
+
+                    <div class="services__card">
+                        <h3 class="services__title">High School</h3>
+                        <p>Carigara National Vocational School</p>
+
+                    </div>
+
+                    <div class="services__card">
+                        <h3 class="services__title">Senior High School</h3>
+                        <p>Carigara National Vocational School</p>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-------------------------gallery------------------------->
+            <section class="work section" id="gallery">
+                <h2 class="section__title">My Gallery</h2>
+
+                <div class="work__filters">
+                    <span class="work__item active-work" data-filter='all' >All</span>
+                    <span class="work__item" data-filter='.pic1' >Pic-1</span>
+                    <span class="work__item" data-filter='.pic2' >Pic-2</span>
+                    <span class="work__item" data-filter='.pic3' >Pic-3</span>
+                </div>
+
+                <div class="work__container container grid">
+                    <div class="work__card mix pic1">
+                        <img src="assets/img/p1.jpeg" alt="" class="work__img">
+                    </div>
+
+                    <div class="work__card mix pic2">
+                        <img src="assets/img/p2.jpeg" alt="" class="work__img">
+                    </div>
+
+                    <div class="work__card mix pic3">
+                        <img src="assets/img/p3.jpeg" alt="" class="work__img">
+                    </div>
+                </div>
+            </section>
+
+            <!-------------------------contact------------------------->
+            <section class="contact section" id="contact">
+                <span class="section__subtitle">Get in touch</span>
+                <h2 class="section__subtitle">Contact Me</h2>
+
+                <div class="contact__container container grid">
+                    <div class="contact__content">
+                        <h3 class="contact__title">Talk to me</h3>
+
+                        <div class="contact__info">
+                            <div class="contact__card">
+                                <i class='bx bxl-gmail contact__card-icon'></i>
+                                <h3 class="contact__card-title">Email</h3>
+                                <span class="contact__card-data">johngray.asis@evsu.edu.ph</span>
+
+                                <a href="https://mail.google.com/" target="_blank" class="contact__button">
+                                    Write me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                                </a>
+                            </div>
+
+                            <div class="contact__card">
+                                <i class='bx bxl-whatsapp contact__card-icon'></i>
+                                <h3 class="contact__card-title">Whatsapp</h3>
+                                <span class="contact__card-data">None</span>
+
+                                <a href="#" target="_blank" class="contact__button">
+                                    Write me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                                </a>
+                            </div>
+
+                            <div class="contact__card">
+                                <i class='bx bxl-messenger contact__card-icon'></i>
+                                <h3 class="contact__card-title">Messenger</h3>
+                                <span class="contact__card-data">John Gray Asis</span>
+
+                                <a href="https://web.facebook.com/" target="_blank" class="contact__button">
+                                    Write me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact__content">
+                        <h3 class="contact__title">Write me your project</h3>
+
+                        <form action="" class="contact__form">
+                            <div class="contact__form-div">
+                                <label for="" class="contact__form-tag">Name</label>
+                                <input type="text" placeholder="Inser your name" class="contact__form-input">
+                            </div>
+
+                            <div class="contact__form-div">
+                                <label for="" class="contact__form-tag">Mail</label>
+                                <input type="email" placeholder="Insert your email" class="contact__form-input">
+                            </div>
+
+                            <div class="contact__form-div contact__form-area">
+                                <label for="" class="contact__form-tag">Project</label>
+                                <textarea name="" id="" cols="30" rows="10" placeholder="Write your project" class="contact__form-input"></textarea>
+                            </div>
+
+                            <button class="button">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-------------------------footer------------------------->
+        <footer class="footer">
+            <div class="footer__container container">
+                <h1 class="footer__title">JG</h1>
+
+                <ul class="footer__list">
+                    <li>
+                        <a href="#about" class="footer__link">About</a>
+                    </li>
+
+                    <li>
+                        <a href="#hobbies" class="footer__link">Hobbies</a>
+                    </li>
+
+                    <li>
+                        <a href="#gallery" class="footer__link">Gallery</a>
+                    </li>
+                </ul>
+
+                <ul class="footer__social">
+                    <a href="https://web.facebook.com/GioOledanDelaPena" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="https://www.instagram.com/gio_delapena/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-twitter'></i>
+                    </a>
+                </ul>
+
+                <span class="footer__copy">
+                    &#169; JhonGrayAsis. All rights reserved
+                </span>
+            </div>
+        </footer>
+
+        <!-------------------------scroll reavel------------------------->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!-------------------------swiper js------------------------->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!-------------------------mixitup filter------------------------->
+        <script src="assets/js/mixitup.min.js"></script>
+
+        <!-------------------------main js------------------------->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
